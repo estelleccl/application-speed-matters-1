@@ -7,18 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" href="#">Score Board</a>
-        <div class="nav-collapse collapse">
-          <ul class="nav">
-            <li class="active"><a href="/">Home</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Score Board</a>
       </div>
-    </div>
-  </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+
   <div class="container">
     <%= yield %>
   </div>
